@@ -1,4 +1,3 @@
-import { Icons } from '@/components/Icons';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import { buttonVariants } from '@/components/ui/button';
 import { Check, Star } from 'lucide-react';
