@@ -1,40 +1,60 @@
-# CaseCobra - A Modern Fullstack E-Commerce Shop for Custom Phone Cases
+# VintageVroom - E-commerce Website
 
-Built with the Next.js 14 App Router, Postgres, TypeScript, Tailwind & Kinde Auth
+Welcome to VintageVroom! This is a fully functional e-commerce website built with Next.js, designed to provide a seamless shopping experience for users. The website integrates with the Fake Store API and utilizes Kinde for authentication and user data management.
 
-![Project Image](https://github.com/joschan21/casecobra/blob/master/public/thumbnail.png)
+# Table of Contents
 
-## Features
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Authentication](#authentication)
+- [Email Verification](#email-verification)
+- [License](#license)
 
-- 🛠️ Complete shop built from scratch in Next.js 14
-- 💻 Beautiful landing page included
-- 🎨 Custom artworks made by a professional illustrator
-- 💳 Secret admin dashboard to manage orders
-- 🖥️ Drag-and-drop file uploads
-- 🛍️ Customers can purchase directly from you
-- 🌟 Clean, modern UI on top of shadcn-ui
-- 🛒 Completely custom phone case configurator
-- 🔑 Authentication using Kinde
-- ✉️ Beautiful thank-you email after purchase
-- ✅ Apple-inspired configuration design
-- ⌨️ 100% written in TypeScript
-- 🎁 ...much more
+# Features
 
-## Getting started
+- Responsive design based on provided Figma layouts
+- User authentication with Kinde
+- Email verification for user accounts
+- Product browsing and detailed product pages
 
-To get started with this project, run
+# Tech Stack
 
-```bash
-  git clone https://github.com/joschan21/casecobra.git
-```
+- Frontend: Next.js, React, Tailwind CSS
+- Authentication: Kinde
+- State Management: React Context
 
-and copy the .env.example variables into a separate .env file, fill them out & and that's all you need to get started!
+# Installation
 
+1. Clone the repository:
+   git clone https://github.com/yourusername/vintagevroom.git
+   cd vintagevroom
 
-## Acknowledgements
+2. Install the dependencies:
+   npm install
 
-- [Kinde](https://link.joshtriedcoding.com/kinde) for making this project possible
+3.Set up environment variables in a .env.local file:
+  NEXT_PUBLIC_KINDE_CLIENT_ID=your_kinde_client_id
+  NEXT_PUBLIC_KINDE_REDIRECT_URI=http://localhost:3000
+  ADMIN_EMAIL=your_admin_email
 
-## License
+4. Start the development server:
+  npm run dev
+  Open your browser and visit http://localhost:3000.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+# Usage
+○ Visit the home page to browse products.
+○ Click on a product to view details and add it to your shopping cart.
+○ Sign up or log in to manage your profile and make purchases.
+
+# Authentication
+○ Kinde is used for user authentication. 
+○ Users can sign up, log in, and manage their accounts securely. All sensitive routes are protected, ensuring only authenticated users can access them.
+
+# Email Verification
+○ After signing up, a verification email will be sent to the user's email address. 
+○ Users must verify their email to complete their registration process.
+
+# License
+○ This project is licensed under the MIT License. See the LICENSE file for details.
